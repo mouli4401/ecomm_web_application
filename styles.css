@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+}
+
+.banner1 img, .banner2 img, .banner3 img, .footer img {
+    width: 100%;
+    height: auto;
+}
+
+.arraivals, .laptop, .discounts, .categories {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul li img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.arraivals span {
+    display: block;
+    margin-top: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
